@@ -1,0 +1,32 @@
+body {
+    background: url('./assets/tcm.jpg') no-repeat;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+/* body  {
+    display: inline-block;
+    width: 100%;
+    font-size: 0;
+    line-height: 0;
+    vertical-align: middle;
+    background-size: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-image: url('./assets/tcm.jpg');
+} */
+
+  /* body {
+    background-image: url('./assets/tcm.jpg');
+} */
+@media only screen and (max-width: 800px) {
+   body {
+        background-image: url('./assets/cv.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+        
+    }
+}
